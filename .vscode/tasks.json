@@ -2,11 +2,11 @@
 	"version": "0.1.0",
 
 	"command": "npm",  
-
+"args": ["run", "build"],
 	// The command is a shell script
 	"isShellCommand": true,
     
-    "args": ["run", "build"],
+    
     
 
 	// Show the output window only if unrecognized errors occur.

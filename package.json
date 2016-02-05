@@ -12,7 +12,7 @@
     "typescript": "^1.7.5"
   },
   "scripts": {
-    "build": "npm",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
