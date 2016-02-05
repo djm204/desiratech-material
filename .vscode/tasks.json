@@ -1,10 +1,13 @@
 {
 	"version": "0.1.0",
 
-	"command": "tsc",  
+	"command": "npm",  
 
 	// The command is a shell script
 	"isShellCommand": true,
+    
+    "args": ["run", "build"],
+    
 
 	// Show the output window only if unrecognized errors occur.
 	"showOutput": "silent",
