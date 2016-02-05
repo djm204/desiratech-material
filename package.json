@@ -9,7 +9,8 @@
   },
   "devDependencies": {
     "browserify": "^13.0.0",
-    "typescript": "^1.7.5"
+    "typescript": "^1.7.5",
+    "webpack": "^1.12.13"
   },
   "scripts": {
     "build": "tsc",
