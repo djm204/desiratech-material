@@ -25,6 +25,11 @@
     box-shadow: none;
 }
 
+.center {
+    width: 99%;
+    margin: 0px auto;
+}
+
 /* header */
 .bg{
 	background:url(../images/bannerish.png) no-repeat 0px 0px;
@@ -111,9 +116,7 @@ nav a#pull {
 }
 
 /*---- banner ----*/
-.banner-info{
-	padding: 9em 0 12em;
-}
+
 .banner-info h1{
 	font-weight: 700;
 	font-size: 3.5em;
