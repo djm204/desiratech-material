@@ -48,7 +48,7 @@
 	__webpack_require__(2);
 	__webpack_require__(15);
 	__webpack_require__(16);
-	__webpack_require__(17);
+	window['WOW'] = __webpack_require__(17);
 	//# sourceMappingURL=index.js.map
 
 /***/ },
