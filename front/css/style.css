@@ -1,0 +1,15 @@
+
+/* General class level things like remove padding */
+.no-padding {
+    padding: 0px;
+}
+
+.no-margin{
+    margin: 0px;
+}
+
+.navbar-brand {
+    line-height: 50px;
+    height: auto;
+}
+

@@ -1,67 +1,104 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
     <title>Desiratech.com - Exceeding Expectations</title>
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootswatch-paper.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="shortcut icon" href="http://www.desiratech.com/images/favicon.png" />
+    <meta name="keywords" content="Web Developer, Software Developer, Android Developer, Web Design, Web Applications, For Hire, Web Site Builder, Web Sites">
+    <meta name="description" content="Winnipeg based developer for hire. Android, Web Apps, and Software, Web">
+    <meta charset="UTF-8">
 </head>
 
 <body>
-<div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Themes <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="themes">
-                <li><a href="../default/">Default</a></li>
-                <li class="divider"></li>
-                <li><a href="../cerulean/">Cerulean</a></li>
-                <li><a href="../cosmo/">Cosmo</a></li>
-                <li><a href="../cyborg/">Cyborg</a></li>
-                <li><a href="../darkly/">Darkly</a></li>
-                <li><a href="../flatly/">Flatly</a></li>
-                <li><a href="../journal/">Journal</a></li>
-                <li><a href="../lumen/">Lumen</a></li>
-                <li><a href="../paper/">Paper</a></li>
-                <li><a href="../readable/">Readable</a></li>
-                <li><a href="../sandstone/">Sandstone</a></li>
-                <li><a href="../simplex/">Simplex</a></li>
-                <li><a href="../slate/">Slate</a></li>
-                <li><a href="../spacelab/">Spacelab</a></li>
-                <li><a href="../superhero/">Superhero</a></li>
-                <li><a href="../united/">United</a></li>
-                <li><a href="../yeti/">Yeti</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="../help/">Help</a>
-            </li>
-            <li>
-              <a href="http://news.bootswatch.com">Blog</a>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Paper <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="download">
-                <li><a href="http://jsfiddle.net/bootswatch/ndax7sh7/">Open Sandbox</a></li>
-                <li class="divider"></li>
-                <li><a href="./bootstrap.min.css">bootstrap.min.css</a></li>
-                <li><a href="./bootstrap.css">bootstrap.css</a></li>
-                <li class="divider"></li>
-                <li><a href="./variables.less">variables.less</a></li>
-                <li><a href="./bootswatch.less">bootswatch.less</a></li>
-                <li class="divider"></li>
-                <li><a href="./_variables.scss">_variables.scss</a></li>
-                <li><a href="./_bootswatch.scss">_bootswatch.scss</a></li>
-              </ul>
-            </li>
-          </ul>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#"><img src="images/logo.png" alt="Desiratech Logo" /></a>
+            </div>
 
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
-            <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a></li>
-          </ul>
+            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Software Development</a></li>
+                            <li><a href="#">Android Development</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Consultation</a></li>
 
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <div id="content" class="container-fluid">
+        <div class="jumbotron">
+
+            <div class="well">
+                <h2>WELCOME TO DESIRATECH SOLUTIONS!</h2> A Web Development company built on three key principals:
+                <ul>
+                    <li>Beautiful Design</li>
+                    <li>Expert Results</li>
+                    <li>Customer Satisfaction</li>
+
+                </ul>
+                Call today for a FREE basic consultation: (204) 298 9476.</div>
         </div>
 
+
+
+        <div class="col-lg-8 col-md-8 col-sm-9 panel panel-default no-padding">
+            <div class="panel-heading">Panel heading</div>
+            <div class="panel-body">
+                Panel content
+            </div>
+        </div>
+
+    </div>
+
+
     <script src="scripts/bundle.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+    </script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
+
 </html>
