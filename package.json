@@ -3,18 +3,24 @@
   "version": "1.0.0",
   "description": "desiratech website",
   "main": "index.html",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/djm204/desiratech-material.git"
+  },
   "dependencies": {
     "bootstrap": "^3.3.6",
     "jquery": "^2.2.0"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
     "typescript": "^1.7.5",
     "webpack": "^1.12.13"
   },
   "scripts": {
     "build": "tsc",
-    "postbuild": "webpack src/index.js front/scripts/bundle.js",
+    "postbuild": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
