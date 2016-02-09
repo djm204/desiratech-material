@@ -239,7 +239,7 @@ nav a#pull {
 	font-size: 1em;
 	line-height: 1.8em;
 	width: 50%;
-    float:right;
+    margin:0px auto;
     margin-top: 25px;
 }
 /*--//team-info--*/
@@ -320,8 +320,11 @@ nav a#pull {
 	padding:3em 0;
 }
 
+
+
 /*GRAY SEPERATOR*/
 .gray-seperator{
+    display: none;    
     height:2px;
     background: #ccc;
 }
@@ -682,9 +685,20 @@ nav a#pull {
 		padding: 4.5em 2em 0em 2em;
 	}
 }
+
 @media (max-width:1240px){
     #techs_used h3 {
         text-align: center;
+    }
+    
+    .gray-seperator{
+        display:block;
+    }
+}
+
+@media (min-width:1240px){
+    .gray-seperator{
+        display:none;
     }
 }
 @media (max-width:1024px){
@@ -726,12 +740,15 @@ nav a#pull {
     #techs_used h3{
         margin-top: 0px;
         padding: 20px;
+        font-size: 1.8em;
     }
     
     .logo a img{
         max-width: 400px;
     }
+    
 }
+
 @media (max-width:768px){
 	.container{
 		width:80%;
@@ -754,6 +771,7 @@ nav a#pull {
 	}
 	.portfolio-top-left {
 		background: url(../images/portbg-1.png) no-repeat 68% 51%;
+        background-size:75%;
 		padding: 1.5em 4em 1.5em 4em;
 	}
 	.about-time-line > li .cbp_tmlabel {
@@ -819,7 +837,7 @@ nav a#pull {
 		margin:0 0 1em 0;
 	}
 }
-@media (max-width:960px){
+@media (max-width:690px){
     .logo a img{
         max-width: 250px;
     }
@@ -849,7 +867,6 @@ nav a#pull {
 		width: 100%;
 	}
 	.portfolio-top-left {
-		background: url(../images/portbg-1.png) no-repeat 68% 51%;
 		padding: 1.5em 3em 1.5em 3em;
 	}
 	.about-time-line > li .cbp_tmlabel {
@@ -942,7 +959,6 @@ nav a#pull {
 		width: 100%;
 	}
 	.portfolio-top-left {
-		background: url(../images/portbg-1.png) no-repeat 68% 51%;
 		padding: 1.5em 2em 1.5em 1.8em;
 	}
 	.about-time-line > li .cbp_tmlabel {
@@ -1071,7 +1087,6 @@ nav a#pull {
 		width: 100%;
 	}
 	.portfolio-top-left {
-		background: url(../images/portbg-1.png) no-repeat 68% 51%;
 		padding: 1.5em 1em 1.5em 1em;
 	}
 	.about-time-line > li .cbp_tmlabel {
