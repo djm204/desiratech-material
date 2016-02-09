@@ -2,10 +2,7 @@ bower_components
 node_modules
 *.log
 *.map
-*.jpg
-*.png
-*.gif
-*.jpeg
+
 front/css
 webpack.config.js
 .vscode
