@@ -9,7 +9,7 @@ require('bootstrap');
 require('../front/scripts/packages/jquery.easing.js');
 require('../front/scripts/packages/move-top.js');
 require('../front/scripts/packages/wow.min.js');
-window['jQuery'].ready(function ($) {
+window['jQuery']('document').ready(function ($) {
     //initiate smooth scrolling
     $(".scroll").click(function (event) {
         event.preventDefault();

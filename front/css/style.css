@@ -40,13 +40,21 @@
 .text-right{
     text-align: right;
 }
+/*navbar tweaks*/
+.nav li a {
+    color: #ddd;
+}
 
+.nav li a:hover {
+    color: #35C2F8;
+    background: none;
+}
 
 /* header */
 .bg{
 	background:url(../images/bannerish.png) no-repeat 0px 0px;
 	background-size:cover;
-    height: 600px;
+    
 }
 
 .logo{
@@ -66,49 +74,6 @@
 	display:none;
 }
 
-/* top-nav */
-.navbar-default .navbar-nav>li>a {
-    color: #ccc;
-}
-
-.navbar-default .navbar-nav>li>a:hover{
-    color: #35C2F8;
-}
-.top-nav:before,
-.top-nav:after {
-    content: " ";
-    display: table;
-}
-.top-nav:after {
-    clear: both;
-}
-nav {
-	position: relative;
-	float: right;
-}
-nav ul {
-	padding: 0;
-	float: right;
-	margin: 0.9em 0;
-}
-nav li {
-	display: inline;
-	position:relative;
-}
-nav a {
-	color: #fff;
-	display: inline-block;
-	text-align: center;
-	text-decoration: none;
-	line-height: 40px;
-}
-nav a:hover{
-	text-decoration:none;
-	color:#00A2C1;
-}
-nav a#pull {
-	display: none;
-}
 
 /*----navbar-nav----*/
 .top-header{
@@ -688,12 +653,17 @@ nav a#pull {
 }
 
 
-
+@media (min-width:1300px){
+    .bg{
+        min-height: 890px;
+    }
+}
 /*---- responsive-design ----*/
 @media (max-width:1366px){
 	.container{
 		width:80%;
 	}
+    
 }
 @media (max-width:1280px){
 	.container{
