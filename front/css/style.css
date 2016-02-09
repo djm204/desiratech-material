@@ -50,6 +50,11 @@
     background: none;
 }
 
+#mobile-toggle{
+    font-size: 3em;
+    color: #ccc;
+}
+
 /* header */
 .bg{
 	background:url(../images/bannerish.png) no-repeat 0px 0px;
