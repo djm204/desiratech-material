@@ -226,6 +226,7 @@ nav a#pull {
 
 .tech-icon-left, .tech-icon-right {
     padding: 20px;
+    text-align: center;
     
 }
 
@@ -319,7 +320,11 @@ nav a#pull {
 	padding:3em 0;
 }
 
-
+/*GRAY SEPERATOR*/
+.gray-seperator{
+    height:2px;
+    background: #ccc;
+}
 /*---- portflio ----*/
 .portfolio-top-left{
 	padding:3em 3em 3em 5em;
@@ -677,6 +682,11 @@ nav a#pull {
 		padding: 4.5em 2em 0em 2em;
 	}
 }
+@media (max-width:1240px){
+    #techs_used h3 {
+        text-align: center;
+    }
+}
 @media (max-width:1024px){
 	.container{
 		width:80%;
@@ -710,6 +720,17 @@ nav a#pull {
 	.about-time-line:before {
 		left: 52%;
 	}
+}
+
+@media (max-width:960px){
+    #techs_used h3{
+        margin-top: 0px;
+        padding: 20px;
+    }
+    
+    .logo a img{
+        max-width: 400px;
+    }
 }
 @media (max-width:768px){
 	.container{
@@ -797,6 +818,11 @@ nav a#pull {
 	.contact-left{
 		margin:0 0 1em 0;
 	}
+}
+@media (max-width:960px){
+    .logo a img{
+        max-width: 250px;
+    }
 }
 @media (max-width:640px){
 	.container{
