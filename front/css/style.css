@@ -148,18 +148,20 @@ nav a#pull {
 	background: #F9F9F9;
 }
 
-.tm-head h3{
+.tm-head h3, #techs_used h3{
 	font-size: 3.3em;
 	font-family: 'Montserrat', sans-serif;
 	color: #222;
 	text-transform: uppercase;
+    padding-left: 20px;
 }
+
 .tm-head p{
 	font-family: 'Open Sans', sans-serif;
 	color: #777777;
-	margin: 0 auto;
 	font-size: 1em;
 	line-height: 1.44em;
+    padding: 0em 2.8em;
 }
 .tm-head-grid img{
 	border-radius: 30em;
@@ -168,9 +170,7 @@ nav a#pull {
 	-o-border-radius: 30em;
 }
 .tm-head-grid {
-	width: 30.33%;
-	
-	margin: 0px auto;
+	width: 30.33%;	
 }
 .tm-head-grids {
 	width: 75%;
@@ -196,6 +196,36 @@ nav a#pull {
 	font-size: 0.95em;
 	line-height: 1.44em;
 }
+/* techs used */
+#techs_used{
+    background: #222;
+}
+#techs_used h3{
+    color: #777777;
+    margin-top: 50px;
+}
+
+#technology-icon-list {
+    display: block;
+    width:90%;
+    margin:0px auto;
+}
+#technology-icon-list ul, #technology-icon-list {
+    list-style: none;
+}
+
+
+#technology-icon-list li ul li a img {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.tech-icon-left, .tech-icon-right {
+    padding: 20px;
+    
+}
+
+
 /*---//team-members--*/
 /*----team-info----*/
 .team-info{
@@ -204,7 +234,6 @@ nav a#pull {
 	margin: 0 auto;
 	font-size: 1em;
 	line-height: 1.8em;
-	text-align: center;
 	width: 50%;
 }
 /*--//team-info--*/
@@ -224,7 +253,7 @@ nav a#pull {
 .facebook{
 	background: url(../images/top-social-icons.png) no-repeat -50px 0px;
 }
-.pin{
+.linkedin{
 	background: url(../images/top-social-icons.png) no-repeat -100px 0px;
 }
 .tm-head-grid ul{

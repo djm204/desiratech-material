@@ -7,3 +7,5 @@ node_modules
 *.gif
 *.jpeg
 front/css
+webpack.config.js
+.vscode
