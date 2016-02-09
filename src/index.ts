@@ -15,11 +15,13 @@ require('../front/scripts/packages/wow.min.js');
 
 window['jQuery'].ready(function($) {
     
-                //initiate smooth scrolling
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+    //initiate smooth scrolling
+				$(".scroll").click(function(event) {
+        event.preventDefault();
+        $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
 				});
                 
-                //instantiate wow
-			});
+    //instantiate wow
+});
+
+

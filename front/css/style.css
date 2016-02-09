@@ -1,4 +1,7 @@
-
+* {
+    margin: 0px;
+    padding: 0px;
+}
 /* General class level things like remove padding */
 .no-padding {
     padding: 0px;
@@ -38,10 +41,7 @@
     text-align: right;
 }
 
-/*bootstrap override*/
-.col-md-6, .col-lg-6{
-    padding-left: 0px;
-}
+
 /* header */
 .bg{
 	background:url(../images/bannerish.png) no-repeat 0px 0px;
@@ -67,6 +67,13 @@
 }
 
 /* top-nav */
+.navbar-default .navbar-nav>li>a {
+    color: #ccc;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #35C2F8;
+}
 .top-nav:before,
 .top-nav:after {
     content: " ";
@@ -476,7 +483,7 @@ nav a#pull {
 	width: 28px;
 	height: 32px;
 	display: inline-block;
-	/*background: url(../images/contact-icons1.png) no-repeat 0px 0px;*/
+	background: url(../images/contact-icons1.png) no-repeat 0px 0px;
 	vertical-align: middle;
 	margin-right: 0.3em;
 }
@@ -510,7 +517,7 @@ nav a#pull {
 	width: 28px;
 	height: 32px;
 	display: inline-block;
-	/*background: url(../images/contact-icons2.png) no-repeat 0px 0px;*/
+	background: url(../images/contact-icons2.png) no-repeat 0px 0px;
 	vertical-align: middle;
 	margin-right: 0.3em;
 }
@@ -587,6 +594,10 @@ nav a#pull {
 	color:#FFF;
 	text-decoration:none;
 }
+#upToTop {
+    display:none;
+}
+
 #toTop {
 	text-decoration: none;
 	position: fixed;
