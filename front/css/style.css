@@ -38,6 +38,10 @@
     text-align: right;
 }
 
+/*bootstrap override*/
+.col-md-6, .col-lg-6{
+    padding-left: 0px;
+}
 /* header */
 .bg{
 	background:url(../images/bannerish.png) no-repeat 0px 0px;
@@ -211,7 +215,6 @@ nav a#pull {
 
 #technology-icon-list {
     display: block;
-    width:90%;
     margin:0px auto;
 }
 #technology-icon-list ul, #technology-icon-list {
@@ -222,6 +225,8 @@ nav a#pull {
 #technology-icon-list li ul li a img {
     min-width: 140px;
     max-width: 140px;
+    max-height: 140px;
+    min-height: 140px;
 }
 
 .tech-icon-left, .tech-icon-right {
@@ -324,11 +329,13 @@ nav a#pull {
 
 /*GRAY SEPERATOR*/
 .gray-seperator{
-    display: none;    
     height:2px;
     background: #ccc;
 }
 /*---- portflio ----*/
+.portfolio-work-grid-caption{
+    width: 100%;
+}
 .portfolio-top-left{
 	padding:3em 3em 3em 5em;
 	background: url(../images/portbg-1.png) no-repeat 68% 69%;
@@ -691,22 +698,22 @@ nav a#pull {
         text-align: center;
     }
     
-    .gray-seperator{
-        display:block;
+    #portfolio{
+        background: #F8F8F8;
     }
+    
 }
 
-@media (min-width:1240px){
-    .gray-seperator{
-        display:none;
-    }
-}
+
+
+
 @media (max-width:1024px){
 	.container{
 		width:80%;
 	}
 	.portfolio-work-grid-caption {
 		padding: 2.4em 1em 0em 1em;
+        width: 100%;
 	}
 	.banner-info h1 {
 		font-size: 3.2em;
