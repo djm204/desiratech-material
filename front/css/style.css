@@ -198,21 +198,17 @@
     list-style: none;
 }
 
-
 #technology-icon-list li ul li a img {
     min-width: 140px;
     max-width: 140px;
     max-height: 140px;
     min-height: 140px;
 }
-
 .tech-icon-left, .tech-icon-right {
     padding: 20px;
     text-align: center;
     
 }
-
-
 /*---//team-members--*/
 /*----team-info----*/
 .team-info{

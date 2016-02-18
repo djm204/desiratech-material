@@ -1,8 +1,5 @@
 //CSS
-import '../front/css/animate.css';
-import '../node_modules/bootswatch/paper/bootstrap.min.css';
-import '../front/css/style.css';
-import '../front/css/animate.css';
+
 
 
 //JS
@@ -23,6 +20,3 @@ window['jQuery']('document').ready(function($) {
     
                 
 });
-
-
-

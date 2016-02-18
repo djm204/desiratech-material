@@ -1,8 +1,4 @@
 //CSS
-require('../front/css/animate.css');
-require('../node_modules/bootswatch/paper/bootstrap.min.css');
-require('../front/css/style.css');
-require('../front/css/animate.css');
 //JS
 window['jQuery'] = require('jquery');
 require('bootstrap');
