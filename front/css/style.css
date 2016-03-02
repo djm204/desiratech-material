@@ -57,7 +57,7 @@
 
 /* header */
 .bg{
-	background:url(../images/bannerish.png) no-repeat 0px 0px;
+	background:url(../images/bannerish.png) no-repeat 0px 0px fixed;
 	background-size:cover;
     
 }
